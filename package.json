@@ -1,0 +1,29 @@
+{
+  "name": "riftbeacon",
+  "version": "0.1.0",
+  "description": "Liveness-Proof Sybil Resistance & Anti-Farm Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "sybil-resistance",
+    "proof-of-liveness",
+    "defi",
+    "web3"
+  ],
+  "author": "RiftBeacon Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
+
