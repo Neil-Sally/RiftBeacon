@@ -48,9 +48,70 @@ Instead of ZK-identity or SBT approaches, RiftBeacon challenges devices through 
 [App Integrations / Airdrop / DAO]
 ```
 
+### Smart Contracts
+
+The core contracts include:
+
+- **LivenessGateway**: Main entry point for liveness proof submission
+- **AttestationRegistry**: Manages ephemeral device attestations
+- **NullifierSet**: Enforces uniqueness and prevents proof reuse
+- **ScoreEngine**: Maintains liveness scores with decay mechanism
+- **ZKVerifier**: Verifies zero-knowledge proofs for privacy
+- **PenaltyModule**: Manages penalties and blacklisting
+
 ### Getting Started
 
-Coming soon...
+#### Installation
+
+```bash
+npm install
+```
+
+#### Compile Contracts
+
+```bash
+npx hardhat compile
+```
+
+#### Run Tests
+
+```bash
+npx hardhat test
+```
+
+#### Deploy
+
+```bash
+npx hardhat run scripts/deploy.js --network optimism
+```
+
+### SDK Usage
+
+```typescript
+import { RiftBeaconSDK } from '@riftbeacon/sdk';
+import { ethers } from 'ethers';
+
+const provider = new ethers.JsonRpcProvider('https://mainnet.optimism.io');
+const wallet = new ethers.Wallet(privateKey, provider);
+const sdk = new RiftBeaconSDK(provider, gatewayAddress, wallet);
+
+// Create and complete liveness challenge
+const sessionId = await sdk.startChallenge(300);
+await sdk.submitResponse(sessionId);
+```
+
+### Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [API Reference](docs/API.md)
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Security
+
+This project is under active development. Please do not use in production without thorough auditing.
 
 ### License
 
