@@ -5,8 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
     "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js"
+    "deploy": "hardhat run scripts/deploy.js",
+    "verify": "hardhat run scripts/verify.js",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "prettier --write 'contracts/**/*.sol' 'test/**/*.js' 'scripts/**/*.js'",
+    "clean": "hardhat clean"
   },
   "keywords": [
     "blockchain",
@@ -14,13 +20,25 @@
     "sybil-resistance",
     "proof-of-liveness",
     "defi",
-    "web3"
+    "web3",
+    "optimism",
+    "base"
   ],
   "author": "RiftBeacon Team",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neil-Sally/RiftBeacon"
+  },
+  "bugs": {
+    "url": "https://github.com/Neil-Sally/RiftBeacon/issues"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "hardhat": "^2.19.0"
+    "hardhat": "^2.19.0",
+    "solhint": "^4.0.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-solidity": "^1.2.0"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0"
