@@ -107,11 +107,19 @@ await sdk.submitResponse(sessionId);
 
 ### Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please read our [Contributing Guidelines](docs/CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting a Pull Request.
+
+### Community
+
+- GitHub Discussions: Coming soon
+- Discord: Coming soon
+- Twitter: Coming soon
 
 ### Security
 
 This project is under active development. Please do not use in production without thorough auditing.
+
+For security concerns, please see our [Security Policy](docs/SECURITY.md).
 
 ### License
 
