@@ -121,7 +121,19 @@ This project is under active development. Please do not use in production withou
 
 For security concerns, please see our [Security Policy](docs/SECURITY.md).
 
+### Project Status
+
+See [STATUS.md](STATUS.md) for current development status.
+
+### Acknowledgments
+
+See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for credits and acknowledgments.
+
+### Contributors
+
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the list of contributors.
+
 ### License
 
-MIT License
+MIT License - See [LICENSE](LICENSE) for details
 
