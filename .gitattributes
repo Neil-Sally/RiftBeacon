@@ -1,0 +1,4 @@
+*.sol linguist-language=Solidity
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+
