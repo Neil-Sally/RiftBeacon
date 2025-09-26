@@ -1,6 +1,7 @@
 {
   "name": "riftbeacon",
   "version": "0.1.0",
+  "homepage": "https://github.com/Neil-Sally/RiftBeacon#readme",
   "description": "Liveness-Proof Sybil Resistance & Anti-Farm Network",
   "main": "index.js",
   "scripts": {
