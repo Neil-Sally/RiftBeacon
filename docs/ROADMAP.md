@@ -1,10 +1,11 @@
 # Roadmap
 
-## Phase 1: Foundation (Q4 2024) ✅
+## Phase 1: Foundation (Q4 2024 - Q3 2025) ✅
 - [x] Core smart contracts
 - [x] Basic SDK implementation
-- [x] Test suite
-- [x] Documentation
+- [x] Comprehensive test suite
+- [x] Complete documentation
+- [x] Alpha release v0.1.0
 
 ## Phase 2: Testing & Audit (Q1 2025)
 - [ ] Comprehensive testing
