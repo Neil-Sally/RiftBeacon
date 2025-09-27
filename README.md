@@ -2,6 +2,9 @@
 
 ## Liveness-Proof Sybil Resistance & Anti-Farm Network
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.20-blue)](https://soliditylang.org/)
+
 RiftBeacon is a liveness-based Sybil resistance protocol that verifies a user is real, unique, and currently present — without revealing identity, biometrics, device fingerprints, or behavioral logs.
 
 ### Overview
