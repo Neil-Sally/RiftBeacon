@@ -4,6 +4,8 @@
 
 Current Phase: **Alpha (v0.1.0)**
 
+Release Date: September 27, 2025
+
 ## Completion Status
 
 ### Smart Contracts
